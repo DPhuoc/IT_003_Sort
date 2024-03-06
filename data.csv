@@ -1,51 +1,51 @@
 Testcase,Time,Algorithms
-1,8.583999999245862,numpySort
-2,14.281499999924563,numpySort
-3,68.09140000041225,numpySort
-4,66.72560000151861,numpySort
-5,65.17940000048839,numpySort
-6,65.35500000063621,numpySort
-7,66.58770000103686,numpySort
-8,63.91030000122555,numpySort
-9,70.37810100155184,numpySort
-10,71.20540000141773,numpySort
-1,32.0,quickSort
-2,31.0,quickSort
-3,134.0,quickSort
-4,136.0,quickSort
-5,138.0,quickSort
-6,134.0,quickSort
-7,141.0,quickSort
-8,131.0,quickSort
-9,134.0,quickSort
-10,136.0,quickSort
-1,153.0,mergeSort
-2,227.0,mergeSort
-3,313.0,mergeSort
-4,316.0,mergeSort
-5,353.0,mergeSort
-6,328.0,mergeSort
-7,335.0,mergeSort
-8,356.0,mergeSort
-9,319.0,mergeSort
-10,309.0,mergeSort
-1,324.0,heapSort
-2,393.0,heapSort
-3,482.0,heapSort
-4,470.0,heapSort
-5,533.0,heapSort
-6,445.0,heapSort
-7,498.0,heapSort
-8,542.0,heapSort
-9,503.0,heapSort
-10,458.0,heapSort
-1,71.0,cppSort
-2,60.0,cppSort
-3,193.0,cppSort
-4,190.0,cppSort
-5,188.0,cppSort
-6,192.0,cppSort
-7,187.0,cppSort
-8,190.0,cppSort
-9,189.0,cppSort
-10,189.0,cppSort
+1,9.593390000020463,sort (Numpy)
+2,18.817879999971865,sort (Numpy)
+3,81.66561399997363,sort (Numpy)
+4,80.3571159999592,sort (Numpy)
+5,80.20241599996325,sort (Numpy)
+6,82.63131399996837,sort (Numpy)
+7,78.78381799997669,sort (Numpy)
+8,81.81281399998852,sort (Numpy)
+9,81.45798999998988,sort (Numpy)
+10,80.50878999995348,sort (Numpy)
+1,37.0,Quicksort
+2,37.0,Quicksort
+3,158.0,Quicksort
+4,158.0,Quicksort
+5,158.0,Quicksort
+6,157.0,Quicksort
+7,163.0,Quicksort
+8,162.0,Quicksort
+9,159.0,Quicksort
+10,159.0,Quicksort
+1,183.0,Mergesort
+2,252.0,Mergesort
+3,367.0,Mergesort
+4,338.0,Mergesort
+5,355.0,Mergesort
+6,363.0,Mergesort
+7,375.0,Mergesort
+8,365.0,Mergesort
+9,364.0,Mergesort
+10,360.0,Mergesort
+1,391.0,Heapsort
+2,376.0,Heapsort
+3,531.0,Heapsort
+4,540.0,Heapsort
+5,599.0,Heapsort
+6,556.0,Heapsort
+7,516.0,Heapsort
+8,554.0,Heapsort
+9,555.0,Heapsort
+10,521.0,Heapsort
+1,98.0,sort (C++)
+2,67.0,sort (C++)
+3,250.0,sort (C++)
+4,262.0,sort (C++)
+5,220.0,sort (C++)
+6,224.0,sort (C++)
+7,264.0,sort (C++)
+8,257.0,sort (C++)
+9,238.0,sort (C++)
+10,223.0,sort (C++)

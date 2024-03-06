@@ -4,22 +4,26 @@ import out
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
+import statistics
 
-os.system('python3 sortNumpy.py')
-sortinC = ['quicksort', 'mergesort', 'heapsort', 'sortc++']
-for i in sortinC:
-    os.system(f'g++ {i}.cpp -o {i} && ./{i} && rm {i}')
+# os.system('python3 sortNumpy.py')
+# sortinC = ['quicksort', 'mergesort', 'heapsort', 'sortc++']
+# for i in sortinC:
+#     os.system(f'g++ {i}.cpp -o {i} && ./{i} && rm {i}')
 
 numpySort = out.numpySort
 quickSort = out.quickSort
 mergeSort = out.mergeSort
 heapSort = out.heapSort
 cppSort = out.cppSort
+for i in cppSort:
+    print(i)
+print(statistics.mean(cppSort))
 
 Testcase = [_ % 10 + 1 for _ in range(50)]
 Time = [numpySort, quickSort, mergeSort, heapSort, cppSort]
 Time = [item for sublist in Time for item in sublist]
-Algorithms = ['numpySort'] * 10 + ['quickSort'] * 10 + ['mergeSort'] * 10 + ['heapSort'] * 10 + ['cppSort'] * 10
+Algorithms = ['sort (Numpy)'] * 10 + ['Quicksort'] * 10 + ['Mergesort'] * 10 + ['Heapsort'] * 10 + ['sort (C++)'] * 10
 
 # export to csv
 df = pd.DataFrame({'Testcase': Testcase, 'Time': Time, 'Algorithms': Algorithms})
@@ -34,5 +38,8 @@ ax = sns.catplot(
     palette=palette,
 )
 ax.set(xlabel='Testcase', ylabel='Time (s)')
-plt.show()
+
+# save plot
+
+plt.savefig('graph.png')
 
