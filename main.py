@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import statistics
 
-# os.system('python3 sortNumpy.py')
-# sortinC = ['quicksort', 'mergesort', 'heapsort', 'sortc++']
-# for i in sortinC:
-#     os.system(f'g++ {i}.cpp -o {i} && ./{i} && rm {i}')
+os.system('python3 sortNumpy.py')
+sortinC = ['quicksort', 'mergesort', 'heapsort', 'sortc++']
+for i in sortinC:
+    os.system(f'g++ {i}.cpp -o {i} && ./{i} && rm {i}')
 
 numpySort = out.numpySort
 quickSort = out.quickSort
